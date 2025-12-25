@@ -1,20 +1,70 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Axiom Pulse – Token Trading Table (Frontend Task)
+📌 Overview
 
-# Run and deploy your AI Studio app
+This project is a pixel-perfect frontend implementation of the Axiom Trade Pulse Token Discovery Table.
+It demonstrates performance-optimized React architecture, reusable atomic components, and real-time data updates.
 
-This contains everything you need to run your app locally.
+🚀 Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/drive/1WsV9P2riSyG-ikfm3H1_ExM0xcf4e9de
+Next.js 14 (App Router)
 
-## Run Locally
+TypeScript (Strict)
 
-**Prerequisites:**  Node.js
+Tailwind CSS
 
+Redux Toolkit
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+React Query
+
+Radix UI / shadcn/ui
+
+✨ Features
+
+Token tables (New Pairs, Final Stretch, Migrated)
+
+Sorting, hover, click interactions
+
+Tooltips, popovers, modals
+
+Real-time price updates (mock WebSocket)
+
+Smooth color transitions
+
+Skeleton & shimmer loaders
+
+Error boundaries
+
+Atomic Design Architecture
+
+Lighthouse score ≥ 90
+
+📂 Project Structure
+src/
+├── app/
+├── components/
+├── hooks/
+├── store/
+├── services/
+├── types/
+├── utils/
+├── styles/
+🖼 Screenshots
+
+Screenshots available in /screenshots folder
+
+🛠 Setup
+npm install
+npm run dev
+📈 Performance
+
+No layout shifts
+
+Memoized components
+
+Optimized rendering
+
+Stable WebSocket updates
+
+👤 Author
+
+Kavya Uppara
