@@ -33,26 +33,6 @@ Reference: https://axiom.trade/pulse
 
 ---
 
-## 📂 Project Structure
-```
-src/
-├── app/
-├── components/
-├── hooks/
-├── store/
-├── services/
-├── types/
-├── utils/
-├── styles/
-```
-
----
-
-## 🖼 Screenshots
-Available inside `/screenshots` folder
-
----
-
 ## ⚡ Performance
 - Memoized components
 - No layout shifts
